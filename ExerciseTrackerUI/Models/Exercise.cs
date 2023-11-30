@@ -1,6 +1,6 @@
 namespace ExerciseTrackerUI.Models;
 
-public class Exercise
+public partial class Exercise
 {
     public int ExerciseId { get; set; }
     public DateTime DateStart { get; set; }
